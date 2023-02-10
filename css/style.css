@@ -103,8 +103,8 @@ h2, h5 {
 
 .skill {
   background: linear-gradient(195deg, #FFA801, #CD6133);
-  margin: 1em;
-  padding: 1.8em;
+  margin: 0.5em;
+  padding: 1.2em;
   border-radius: 35px;
 }
 
@@ -150,6 +150,7 @@ h2, h5 {
   padding: 0em 5em 3em 5em;
   background: #221600;
   height: 100vh;
+  text-align: center;
 }
 
 .contact input, textarea {
@@ -208,4 +209,45 @@ div.links a:hover {
 }
 .columns:not(.is-desktop) {
   margin: 0;
+}
+
+@media (max-width: 1219px) {
+  .columns:not(.is-desktop) {
+    margin: 0;
+  }
+}
+
+@media (max-width: 516px) {
+  .ft {
+    font-size: 0.9em !important;
+  }
+  .send {
+    font-size: 0.7em !important;
+    padding: .5em !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header {
+    padding: 0.5em .1em;
+  }
+  .about {
+    height: auto;
+    padding: 0;
+  }
+  .header {
+    height: auto;
+    padding: 0;
+  }
+  .myworks {
+    height: auto;
+    padding: 0;
+  }
+  .myservices {
+    height: auto;
+    padding: 0;
+  }
+  .contact {
+    height: auto;
+  }
 }
