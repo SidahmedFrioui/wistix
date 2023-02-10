@@ -176,6 +176,7 @@ input:focus, textarea {
 }
 
 div.links a {
+  font-size: larger;
   margin: 1em;
   color: white;
   transition-duration: 0.5s;
