@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WISTIX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4233620b0f.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="brd" href="#">
+          <img src="img/logo.png" width="80">
+        </a>
+        <a onclick="toggleClass()" role="button" class="navbar-burger burger is-pulled-right" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="burger" class="navbar-menu is-fixed-top">
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <a class="navbar-item active">HOME</a>
+            <a class="navbar-item" href="#about">ABOUT</a>
+            <a class="navbar-item" href="#myservices">MY SKILLS</a>
+            <a class="navbar-item" href="#myworks">MY PROJECTS</a>
+            <a class="navbar-item" href="#contact">CONTACT</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="columns is-center header">
+        <div class="column is-narrow">
+          <ul class="socialmenu">
+            <li><a><i class="fab fa-twitter"></i></a></li>
+            <li><a><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/sidahmed.frioui/"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://github.com/SidahmedFrioui"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/sidahmedfroui/"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <div>
+            <h2 style="font-size: 3em;color: #CD6133;">HELLO.</h2>
+            <h2 style="font-size: 3em;font-weight: bold;">I am FRIOUI Sidahmed</h2>
+            <h5 style="font-size: 1em;color: #CED6E0;">A Full stack web developer.</h5>
+            <a class="button prim" style="margin-top: 2em;" href="#about">More about me&nbsp;&nbsp;&nbsp;<i class="fas fa-chevron-down"></i></a>
+          </div>
+        </div>
+      </div>
+    <div class="columns is-center about" id="about">
+      <div class="column is-5" style="text-align: center;">
+        <img src="img/about.jpg" style="border-radius: 45px !important;" alt="">
+      </div>
+      <div class="column is-6" style="text-align: center;">
+        <h3 style="font-size: 1.9em;color: white;margin: 1em;">ABOUT ME</h3>
+        <div style="font-size: 1.2em;color: white;">
+          <p>I’m a Full Stack Developer located in Algeria. I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
+          <p>Well-organised person, problem solver, independent employee with high attention to detail.</p>
+          <p>Interested in the entire frontend and backend spectrum and working on ambitious projects with positive people.</p>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-center myservices" id="myservices">
+      <div class="column is-5" style="text-align: left;margin-top: auto;margin-bottom: auto;">
+        <h3 style="font-size: 1.9em;color: white;margin: 1em;">Skills & Experience</h3>
+        <div style="margin: 1.5em;">
+          <p>Since beginning my journey as a freelance developer nearly 4 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.</p>
+          <p>I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts.</p>
+          <p>I also have full-stack developer experience with popular backend languages like (NodeJS, PHP) .</p>
+          <p>Visit my linkedin profile for more details or just <a href="#contact">contact</a> me.</p>
+        </div>
+        
+      </div>
+      <div class="column" style="text-align: center;margin-top: auto;margin-bottom: auto;">
+        <div class="columns skills">
+          <div class="column" style="padding: 0;">
+            <div class="skill">
+              <h4>FRONTEND</h4>
+              <h5>HTML5, CSS5, JS</h5>
+            </div>
+          </div>
+          <div class="column" style="padding: 0;">
+            <div class="skill">
+              <h4>FRAMEWORKS</h4>
+              <h5>ANGULAR, IONIC(MOBILE)</h5>
+            </div>
+          </div>
+          <div class="column" style="padding: 0;">
+            <div class="skill">
+              <h4>BACKEND</h4>
+              <h5>NODE JS, PHP</h5>
+            </div>
+          </div>
+        </div>
+        <div class="columns skills">
+          <div class="column" style="padding: 0;">
+            <div class="skill">
+              <h4>DATABASES</h4>
+              <h5>MYSQL, PostgreSQL, MONGODB</h5>
+            </div>
+          </div>
+          <div class="column" style="padding: 0;">
+            <div class="skill">
+              <h4>OTHER</h4>
+              <h5>GIT, </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-center myworks" id="myworks">
+      <div class="column">
+        <h3 style="font-size: 1.9em;color: white;margin: 1em;">MY PROJECTS</h3>
+        <h5 style="font-size: 1.2em;color: white;margin: 2em 1.7em;">Check Out Some of My Works.</h5>
+        <div class="tabs is-centered">
+          <ul>
+            <li class="is-active"><a>ALL</a></li>
+            <li><a>WEB DEVELOPMENT</a></li>
+          </ul>
+        </div>
+        <div class="columns is-multiline" style="margin-top: 3em;">
+          <div class="column is-one-third">
+            <a href="http://ntic-informatique.herokuapp.com">
+              <img src="img/col.jpg" alt="">
+            </a>
+          </div>
+          <div class="column is-one-third">
+            <a href="https://kawacer.netlify.app">
+              <img src="img/col.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns is-center contact" id="contact">
+      <div class="column" style="text-align: center;">
+        <h2 style="font-size: 2em;margin: 2em;">CONTACT</h2>
+        <form action="">
+          <div class="field is-horizontal">
+            <div class="field-body">
+              <div class="field">
+                <p class="control is-expanded">
+                  <input class="input" type="text" placeholder="FULL NAME *">
+                </p>
+              </div>
+              <div class="field">
+                <p class="control is-expanded">
+                  <input class="input" type="email" placeholder="EMAIL *">
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="field is-horizontal" style="margin: .5em">
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <input class="input" type="text" placeholder="SUBJECT *">
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="field is-horizontal" style="margin: .5em">
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <textarea class="textarea" placeholder="MESSAGE *"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="field is-horizontal">
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <button class="button prim" style="margin: 1em;padding: 1.5em 4em !important;">
+                    <i class="fas fa-paper-plane"></i>&nbsp;Send
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <h2 style="font-size: 2em;margin: 2em;">FIND ME ON</h2>
+        <div class="columns">
+          <div class="column links">
+            <a href="https://www.instagram.com/sidahmedfroui/">INSTAGRAM</a>
+            <a href="https://www.facebook.com/sidahmed.frioui/">FACEBOOK</a>
+            <a href="https://github.com/SidahmedFrioui">GITHUB</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--div class="columns is-center footer" style="padding: 0;">
+      <div class="column" style="text-align: center;">
+        <h5>© Copyright WISTIX 2023.</h5>
+      </div>
+    </div-->
+  </body>
+</html>
